@@ -1,0 +1,15 @@
+//triangle pattern using for loop
+#include<stdio.h>
+void main()
+{
+  int row,j,n;
+ scanf("%d",&n);
+  for(row=0;row<n;row++)
+  {
+      for(j =0;j<row;j++)
+      {
+      printf("*");
+      }
+printf("\n");
+     }
+  }
